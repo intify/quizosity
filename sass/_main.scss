@@ -1,0 +1,28 @@
+// edit this file for any changes
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica;
+}
+
+footer {
+	bottom: 0;
+	padding: 30px;
+}
+
+.pull-right {
+	float: right;
+}
+
+.quiz-bg {
+	background: url('/images/quizbg.jpg');
+	height: 600px;
+	background-size: cover;
+}
+
+.content-wrapper {
+	padding: 20px;
+}

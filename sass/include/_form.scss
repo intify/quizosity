@@ -1,0 +1,57 @@
+.login-container {
+	background: $white;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px;
+	z-index: 99999;
+	position: absolute;
+	top: 20%;
+	right: 10%;
+	margin: 0;
+	width: 20em;
+	height: 20em;
+}
+
+.form-control {
+	padding: 15px;
+	display: block;
+	width: 90%;
+	font-size: 110%;
+	color: $black;
+	margin: 5px auto;
+
+	&:focus {
+		outline: $gray 2px solid;
+	}
+}
+
+.control {
+	padding: 20px;
+	display: block;
+}
+
+
+.btn {
+	display: block;
+	background: $blue;
+	padding: 12px;
+	border: 0;
+	border-radius: 3px;
+	margin: 10px auto;
+	width: 80%;
+	color: #f4f4f4;
+}
+
+.btn:hover{
+	background: $blue_dark;
+}
+
+.form-head {
+	background: $green;
+	h2 {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		color: $white;
+		font-size: 120%;
+		padding: 20px
+	}
+}
